@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@c-frame/aframe-physics-system@4.2.x/dist/aframe-physics-system.min.js"></script> 
+        
+        
+        
+    </head>
+    <body>
+        <a-scene physics="gravity:-9.8">
+    
+            <a-sky color="lightblue"></a-sky>
+        
+            <a-plane static-body
+                color="tan"
+                position="0 0 0"
+                width="30"
+                height="30"
+                rotation="-90 0 0"
+            ></a-plane>
+        
+            <a-box static-body
+                position="0 2 -5"
+                width="4"
+                height="2"
+                depth="1"
+                rotation="20 0 -20"
+                color="purple">
+            </a-box>
+
+            <a-sphere dynamic-body
+                position="0 5 -5"
+                color="red"
+            ></a-sphere>
+            
+               <a-box dynamic-body
+                position="3 2 -4"
+                width=".5"
+                height="2.5"
+                depth="1"
+                rotation="0 -40 0"
+                color="green"></a-box>
+                   
+                   
+               <a-box dynamic-body
+                position="4 3 -3.5"
+                width=".5"
+                height="3"
+                depth="1"
+                rotation="0 -50 0"
+                color="green"></a-box>
+            
+             <a-box dynamic-body
+                position="5.5 3 -2"
+                width=".5"
+                height="3"
+                depth="1"
+                rotation="0 -70 0"
+                color="green"></a-box>
+            
+              <a-box dynamic-body
+                position="6 3 1"
+                width=".5"
+                height="3"
+                depth="1"
+                rotation="0 -100 0"
+                color="green"></a-box>
+            
+            
+             <a-box dynamic-body
+                position="5 3 3"
+                width=".5"
+                height="3"
+                depth="1"
+                rotation="0 -120 0"
+                color="green"></a-box>
+    
+     <a-box dynamic-body
+                position="4 3 5"
+                width=".5"
+                height="3"
+                depth="1"
+                rotation="0 -120 0"
+                color="green"></a-box>
+    
+      <a-box dynamic-body
+                position="3 3 7"
+                width=".5"
+                height="3"
+                depth="1"
+                rotation="0 -120 0"
+                color="green"></a-box>
+    
+     <a-box dynamic-body
+                position="2 3 9"
+                width=".5"
+                height="3.1"
+                depth="1"
+                rotation="0 -90 0"
+                color="green"></a-box>
+    
+    
+      <a-sphere dynamic-body
+                radius="1"
+                position="1 1 13"
+                color="red"
+            ></a-sphere>
+    
+    
+    
+    
+    
+    
+    
+       
+            ></a-torus>
+
+       
+            
+            
+            
+            
+            
+    </a-scene>
+  </body>
+</html>
